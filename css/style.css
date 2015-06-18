@@ -15,12 +15,41 @@ html {
 /**
  * Remove default margin.
  */
-
-body {
-  background-color: LightGray;
+/**
+* Navigation section */
+.top-navigation {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px solid #DDD;
+  z-index: 9999;
+ }
+.top-navigation > .content {
+  width: 970px;
+  height: 70px;
+  margin: 0 auto;
+  padding: 0px 15px;
 }
-div {
-    border: 1px solid Chocolate;
+.top-navigation .logo {
+  height: 4.375rem;
+}
+.top-navigation .links {
+  float: right;
+  color: #83894;
+  font-size: 1.04rem;
+  margin-top: 1.7rem; 
+  display: inline-block;
+}
+.top-navigation .links li.active {
+  color: #4c5058;
+  font-weight: 500;
+}
+.top-navigation .links li {
+  display: inline-block;
+  margin-left: 1.563rem;
+}
+ul {
+  list-style: none;
 }
 
 /* HTML5 display definitions
@@ -43,7 +72,7 @@ header,
 hgroup,
 main,
 menu,
-nav,
+nav 
 section,
 summary {
   display: block;
