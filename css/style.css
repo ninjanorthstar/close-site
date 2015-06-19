@@ -40,7 +40,7 @@ html {
   margin-top: 1.7rem; 
   display: inline-block;
 }
-.top-navigation .links li.active {
+.top-navigation .links > .active {
   color: #4c5058;
   font-weight: 500;
 }
@@ -50,6 +50,12 @@ html {
 }
 ul {
   list-style: none;
+}
+li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #838994;
+  letter-spacing: 0.03em;
 }
 
 /* HTML5 display definitions
